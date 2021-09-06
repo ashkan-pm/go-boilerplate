@@ -4,7 +4,7 @@ Boilerplate for containerized Go applications including logging configuration, C
 
 ## Features
 - CI pipeline using Github Actions covering lint, test and build
-- Multi-stage `Dockerfile` optimized for cache and minimal image size
+- Multi-stage [Dockerfile](https://github.com/ashkan-pm/go-boilerplate/blob/master/Dockerfile) optimized for cache and minimal image size
 - Example Kubernetes deployment file
 - Custom logger configuration supporting rolling log files and pretty logging on console using [zerolog](https://github.com/rs/zerolog)
 - HTTP health-check server
